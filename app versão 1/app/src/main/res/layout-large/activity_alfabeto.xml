@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="aplicativotcc.cursoandroid.com.aplicativotcc.Alfabeto"
+    android:background="#00a6ff">
+
+    <include
+        android:id="@+id/toolbar_principal"
+        layout="@layout/toolbar"
+        />
+
+    <ImageView
+        android:layout_width="550dp"
+        android:layout_height="420dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/alfabeto_de_libras"
+        android:layout_below="@+id/toolbar_principal"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="@dimen/padding_padrao"
+        android:layout_marginTop="10dp" />
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="240dp"
+        android:id="@+id/scrollView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginTop="5dp"
+        android:fillViewport="false"
+        android:background="@color/colorPrimary"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_below="@+id/imageView"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/AlfabetoSobre"
+            android:id="@+id/textView"
+            android:textColor="#ffffff" />
+    </ScrollView>
+
+</RelativeLayout>

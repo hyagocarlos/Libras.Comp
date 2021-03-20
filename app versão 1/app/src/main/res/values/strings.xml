@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Libras.Comp</string>
+    <string name="Glossario">Glossário</string>
+    <string name="Alfabeto">Alfabeto</string>
+    <string name="Numero">Números</string>
+
+    <string name="AlfabetoSobre">- Ao utilizar a letra cedilha (Ç) é como o C e vibrar;\n\n
+
+- As letras H e K são parecidas. A H é apenas vibrar, e K é avançar para cima;\n\n
+
+- As letras F e T são muito parecidas que geralmente confunde. Lembre-se que o dedo polegar está fora o do indicador , então o F conforme se diz "Fora".
+
+ Pelo contrário, o dedo polegar está dentro do indicador, então é T conforme se diz "denTro";\n\n
+        - O movimento da letra Z é como o costume do Zorro que usa a espada para marcar na barriga do adversário;\n\n
+        - O movimetno das letras W e Y são as mesmas da K.\n\n
+        - Para fazer duas letras idênticas como "rr", "ss", "cc", etc.., deve arrastar um pouco ao lado de fora. Exeto o "zz" que deve repetir a escrita.
+    </string>
+
+    <string name="NumeroSobre">
+        - Para os números quantitativos os sinais em libras sofrem modificações, somente nos numerais 1 a 4 e o numeral 5 a 9 que continua como nos cardinais e ordinais;\n\n
+        - Para realizar dois ou mais números diferentes, devem escrever normalmente conforme a imagem acima;\n\n
+        - Para realizar númerosque contêm mil, devem escrever normalmente um dos números e girar o ponto com um dedo indicador;
+    </string>
+
+    <string name="Sobre">
+        O Libras.Comp é um aplicativo desenvolvido pelo aluno José Hyago do curso de Ciência da Computação da Universidade Estadual da Paraíba como parte do projeto de Trabalho de Conclusão do Curso (TCC).\n
+        A aplicação móvel denominada Libras.Comp é voltada não só para o aluno surdo, mas também, os demais alunos, professores e demais envolvidos no processo de formação do aluno com limitação auditiva, possam interagir com o mesmo através da ferramenta.
+    </string>
+
+    <string-array name="termos">
+        <item>Aba</item>
+        <item>Algoritmo</item>
+        <item>Alinhar à direita</item>
+        <item>Alinhar à esquerda</item>
+        <item>Aplicativo</item>
+        <item>Armazenamento</item>
+        <item>Arrays matriz</item>
+        <item>Atribuição</item>
+        <item>Backup</item>
+        <item>Banco de Dados</item>
+        <item>Barra de ferramentas</item>
+        <item>Barra de menu</item>
+        <item>Barra de titulo</item>
+        <item>Binário</item>
+        <item>Bios</item>
+        <item>Bit</item>
+        <item>Caractere</item>
+        <item>Centralizar</item>
+        <item>Colar</item>
+        <item>Coluna</item>
+        <item>Comando</item>
+        <item>Compactar</item>
+        <item>Compilador</item>
+        <item>Computador</item>
+        <item>Conectar</item>
+        <item>Copiar</item>
+        <item>Dados</item>
+        <item>Descompactar</item>
+        <item>Download</item>
+        <item>Driver</item>
+        <item>Entidade</item>
+        <item>Entrada</item>
+        <item>Escrever write</item>
+        <item>Executar</item>
+        <item>For</item>
+        <item>Herança</item>
+        <item>If Else</item>
+        <item>Inserir</item>
+        <item>Internet</item>
+        <item>Janela</item>
+        <item>Java</item>
+        <item>Leia</item>
+        <item>Linguagem de Programação</item>
+        <item>Lógica</item>
+        <item>Métodos</item>
+        <item>Pascal</item>
+        <item>Polimorfismo</item>
+        <item>Programa</item>
+        <item>Variável</item>
+        <item>Vetor</item>
+        <item>While</item>
+    </string-array>
+
+</resources>

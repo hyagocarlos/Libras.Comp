@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="aplicativotcc.cursoandroid.com.aplicativotcc.SobreActivity">
+
+    <include
+        android:id="@+id/toolbar_principal"
+        layout="@layout/toolbar"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Sobre"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/toolbar_principal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/padding_padrao"
+        android:layout_marginTop="@dimen/padding_padrao"
+        android:layout_marginRight="@dimen/padding_padrao"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView4"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="237dp"
+        android:background="@drawable/logo_uepb" />
+
+</RelativeLayout>
